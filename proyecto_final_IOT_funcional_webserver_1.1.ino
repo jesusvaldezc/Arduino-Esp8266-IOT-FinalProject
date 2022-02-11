@@ -6,7 +6,7 @@
 SoftwareSerial SUART(4, 5); //SRX=Dpin-D2; STX-DPin-D1
 ESP8266WebServer server1(80);
 
-const char* apiKey = "YO36SD2CFLQY7FNZ";
+const char* apiKey = "";
 
 const char* resource = "/update?api_key=";
 
@@ -32,8 +32,8 @@ float datos;
 int modo = 0;
 
 //Cayenne login data for sending information
-char username[] = "274413b0-fa63-11e9-84bb-8f71124cfdfb";
-char mqtt_password[] = "777dd444a16b510b1633a2d3db46419a6b6ea264";
+char username[] = "";
+char mqtt_password[] = "";
 char client_id[] = "b29c46c0-fa73-11e9-b49d-5f4b6757b1bf";
 
 
